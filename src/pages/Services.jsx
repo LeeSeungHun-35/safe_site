@@ -50,7 +50,6 @@ const Services = () => {
                 <li><i className="fas fa-check"></i> 무반응 상태 감지</li>
                 <li><i className="fas fa-check"></i> 비정상 행동 패턴 분석</li>
               </ul>
-              <div className="tech-badge">AI 특허 출원</div>
             </div>
           </div>
 
@@ -76,7 +75,6 @@ const Services = () => {
                 <li><i className="fas fa-check"></i> 영상 비공개 원칙</li>
                 <li><i className="fas fa-check"></i> 데이터 암호화</li>
               </ul>
-              <div className="tech-badge">KISA 인증</div>
             </div>
           </div>
 
@@ -102,7 +100,6 @@ const Services = () => {
                 <li><i className="fas fa-check"></i> 명확한 정보 전달</li>
                 <li><i className="fas fa-check"></i> 실시간 상황 업데이트</li>
               </ul>
-              <div className="tech-badge">AI 분석 인증</div>
             </div>
           </div>
         </div>
@@ -117,8 +114,7 @@ const Services = () => {
               <div className="comparison-title">기존 솔루션</div>
               <ul>
                 <li><i className="fas fa-times"></i> 영상 직접 공유로 인한 프라이버시 침해</li>
-                <li><i className="fas fa-times"></i> 단순 움직임 감지에 의존</li>
-                <li><i className="fas fa-times"></i> 높은 오탐지율</li>
+                <li><i className="fas fa-times"></i> 단순 움직임 감지</li>
                 <li><i className="fas fa-times"></i> 제한적인 상황 인식</li>
               </ul>
             </div>
@@ -127,8 +123,7 @@ const Services = () => {
               <ul>
                 <li><i className="fas fa-check"></i> 텍스트 기반 상황 전달로 프라이버시 보호</li>
                 <li><i className="fas fa-check"></i> AI 기반 정확한 행동 인식</li>
-                <li><i className="fas fa-check"></i> 99.9% 정확도</li>
-                <li><i className="fas fa-check"></i> GPT 기반 상세 상황 설명</li>
+                <li><i className="fas fa-check"></i> 감지내용 상세 상황 설명</li>
               </ul>
             </div>
           </div>

@@ -45,10 +45,10 @@ const Home = () => {
 
       <div className="features">
         <div className="section-header">
-          <span className="section-subtitle">CORE SERVICES</span>
-          <h2>주요 서비스</h2>
+          <span className="section-subtitle">SERVICES</span>
+     
           <p className="section-description">
-            최첨단 AI 기술로 구현하는 스마트 케어 시스템
+            AI 기술로 구현하는 스마트 케어 시스템
           </p>
         </div>
         
