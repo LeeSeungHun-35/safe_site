@@ -1,0 +1,47 @@
+.technology {
+  padding: 4rem 2rem;
+}
+
+.technology h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.tech-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tech-item {
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(220, 53, 69, 0.1);
+  border-left: 3px solid #dc3545;
+  backdrop-filter: blur(10px);
+}
+
+.tech-item h3 {
+  color: #dc3545;
+  margin-bottom: 1rem;
+}
+
+.tech-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tech-item ul li {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.technology-description p,
+.technology-card p {
+  color: #000000;
+  line-height: 1.6;
+} 

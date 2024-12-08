@@ -1,0 +1,134 @@
+.organization {
+  background-color: #ffffff;
+}
+
+.org-content {
+  padding: 6rem 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.team-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.team-image {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.team-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover .team-image img {
+  transform: scale(1.1);
+}
+
+.team-info {
+  padding: 2rem;
+}
+
+.team-info h3 {
+  font-size: 1.8rem;
+  margin: 0;
+  color: var(--dark);
+}
+
+.team-position {
+  display: block;
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.team-divider {
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
+  margin: 1.5rem 0;
+}
+
+.team-responsibilities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-responsibilities li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+  color: var(--gray);
+  font-size: 0.95rem;
+}
+
+.team-responsibilities i {
+  color: var(--primary-color);
+  font-size: 0.8rem;
+}
+
+.team-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.team-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--light-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.team-link:hover {
+  background: var(--primary-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .team-image {
+    height: 250px;
+  }
+
+  .team-info {
+    padding: 1.5rem;
+  }
+}

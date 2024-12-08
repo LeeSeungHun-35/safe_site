@@ -1,0 +1,42 @@
+.about {
+  padding: 4rem 2rem;
+  background-color: #fff5f5;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mission, .vision {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(220, 53, 69, 0.1);
+  border-left: 3px solid #dc3545;
+  backdrop-filter: blur(10px);
+}
+
+.mission h3, .vision h3 {
+  color: #dc3545;
+  margin-bottom: 1rem;
+}
+
+.mission p, .vision p {
+  color: #000000;
+  line-height: 1.6;
+}
+
+.about-description p,
+.about-content p,
+.team-member p {
+  color: #000000;
+  line-height: 1.6;
+} 
