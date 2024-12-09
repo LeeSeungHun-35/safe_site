@@ -23,7 +23,7 @@ const Services = () => {
           <span className="section-subtitle">CORE TECHNOLOGY</span>
           <h2>핵심 기술</h2>
           <p className="section-description">
-            AI 기술과 프라이버시 보호를 결합한 혁신적인 케어 시스템
+            AI 기술과 프라이버시 보호를 결합한 케어 시스템
           </p>
         </div>
 
@@ -34,15 +34,15 @@ const Services = () => {
             </div>
             <div className="tech-content">
               <h3>딥러닝 행동 감지</h3>
-              <p>고성능 AI 모델이 실시간으로 행동을 분석하여 위험 상황을 감지합니다.</p>
+              <p>AI가 실시간으로 행동을 분석하여 위험 상황을 감지합니다.</p>
               <div className="tech-details">
                 <div className="tech-stat">
                   <span className="stat-value">99.9%</span>
                   <span className="stat-label">정확도</span>
                 </div>
                 <div className="tech-stat">
-                  <span className="stat-value">0.1초</span>
-                  <span className="stat-label">응답속도</span>
+                  <span className="stat-value">1초</span>
+                  <span className="stat-label">감지속도</span>
                 </div>
               </div>
               <ul className="tech-features">
@@ -138,57 +138,11 @@ const Services = () => {
         </div>
 
         <div className="process-flow">
-          <div className="process-step">
-            <div className="process-icon">
-              <i className="fas fa-camera"></i>
-              <span className="process-number">1</span>
-            </div>
-            <h4>실시간 모니터링</h4>
-            <p>AI CCTV가 24시간 행동을 분석합니다</p>
-          </div>
-
-          <div className="process-arrow">
-            <i className="fas fa-arrow-right"></i>
-          </div>
-
-          <div className="process-step">
-            <div className="process-icon">
-              <i className="fas fa-exclamation-triangle"></i>
-              <span className="process-number">2</span>
-            </div>
-            <h4>위험 감지</h4>
-            <p>딥러닝 모델이 위험 상황을 감지합니다</p>
-          </div>
-
-          <div className="process-arrow">
-            <i className="fas fa-arrow-right"></i>
-          </div>
-
-          <div className="process-step">
-            <div className="process-icon">
-              <i className="fas fa-comment-alt"></i>
-              <span className="process-number">3</span>
-            </div>
-            <h4>상황 분석</h4>
-            <p>GPT가 상황을 상세히 분석합니다</p>
-          </div>
-
-          <div className="process-arrow">
-            <i className="fas fa-arrow-right"></i>
-          </div>
-
-          <div className="process-step">
-            <div className="process-icon">
-              <i className="fas fa-bell"></i>
-              <span className="process-number">4</span>
-            </div>
-            <h4>알림 전송</h4>
-            <p>보호자에게 즉시 알림이 전송됩니다</p>
-          </div>
+          <img src={require('../assets/solution.png')} alt="Solution" />
         </div>
       </div>
     </div>
   );
 };
 
-export default Services; 
+export default Services;

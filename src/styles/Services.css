@@ -1,5 +1,5 @@
 .services {
-  background-color: #ffffff;
+  background-color: #ffffff; /* 기존 배경색 */
 }
 
 .service-details {
@@ -7,6 +7,22 @@
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
 
+.page {
+  background-color: #ffffff; /* 새로운 배경색 */
+  color: #333; /* 텍스트 색상 */
+}
+
+.hero-description,
+.section-description {
+  line-height: 1.5; /* 줄 간격 조정 */
+  font-size: 1.2rem; /* 폰트 크기 조정 */
+  color: #444; /* 텍스트 색상 조정 */
+}
+
+h1, h2, h3 {
+  font-weight: 600; /* 제목 두께 조정 */
+  margin-bottom: 0.5rem; /* 제목 아래 여백 추가 */
+}
 
 .tech-grid {
   display: grid;
