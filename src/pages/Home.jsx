@@ -59,9 +59,7 @@ const Home = () => {
             </div>
             <h3>AI 영상 분석</h3>
             <p>딥러닝 기반 실시간 행동 감지로 위험 상황을 즉시 파악합니다</p>
-            <div className="feature-link">
-              자세히 보기 <i className="fas fa-arrow-right"></i>
-            </div>
+            
           </div>
 
           <div className="feature-card">
@@ -70,20 +68,16 @@ const Home = () => {
             </div>
             <h3>즉각적인 알림</h3>
             <p>위험 상황 발생 시 보호자에게 즉시 알림을 전송합니다</p>
-            <div className="feature-link">
-              자세히 보기 <i className="fas fa-arrow-right"></i>
-            </div>
+            
           </div>
 
           <div className="feature-card">
             <div className="feature-icon">
               <i className="fas fa-shield-alt"></i>
             </div>
-            <h3>프라이버시 보호</h3>
-            <p>엣지 컴퓨팅으로 개인정보를 안전하게 보호합니다</p>
-            <div className="feature-link">
-              자세히 보기 <i className="fas fa-arrow-right"></i>
-            </div>
+            <h3>개인 정보 보호</h3>
+            <p>암호화 적용, 영상 전달이 아닌 텍스트 기반으로 전달하여 개인정보 및 사생활을 안전하게 보호합니다</p>
+            
           </div>
 
           <div className="feature-card">
@@ -92,9 +86,7 @@ const Home = () => {
             </div>
             <h3>모바일 앱 연동</h3>
             <p>언제 어디서나 스마트폰으로 확인할 수 있습니다</p>
-            <div className="feature-link">
-              자세히 보기 <i className="fas fa-arrow-right"></i>
-            </div>
+            
           </div>
         </div>
       </div>
