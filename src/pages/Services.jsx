@@ -33,7 +33,7 @@ const Services = () => {
               <i className="fas fa-brain"></i>
             </div>
             <div className="tech-content">
-              <h3>딥러닝 행동 감지</h3>
+              <h3>딥러닝기반 행동 감지</h3>
               <p>AI가 실시간으로 행동을 분석하여 위험 상황을 감지합니다.</p>
               <div className="tech-details">
                 <div className="tech-stat">
