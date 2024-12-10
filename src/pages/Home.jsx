@@ -62,7 +62,7 @@ const Home = () => {
             AI 기술로 구현하는 스마트 케어 시스템
           </p>
         </div>
-        
+
         <div className="features-grid">
           <div className="feature-card">
             <div className="feature-icon">
@@ -123,7 +123,7 @@ const Home = () => {
                   width="400"
                   height="225"
                   src={`https://www.youtube.com/embed/${video.id.videoId}`}
-                  title={video.snippet.title}
+                  title={video.snippet}
                   frameBorder="0"
                   allowFullScreen
                 ></iframe>
