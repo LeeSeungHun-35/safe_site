@@ -11,10 +11,7 @@ const Home = () => {
             <span className="highlight animate-slide-down">AI 기반</span><br />
             <span className="title-main animate-slide-up">독거노인 안전 모니터링 솔루션</span>
           </h1>
-          <p className="hero-description animate-fade-in">
-            실시간 행동 감지와 즉각적인 대응으로<br />
-            소중한 가족의 안전을 지켜드립니다
-          </p>
+
         </div>
 
         <div className="hero-stats">

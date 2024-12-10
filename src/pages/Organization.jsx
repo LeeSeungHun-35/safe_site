@@ -44,20 +44,12 @@ const Organization = () => {
                 <li><i className="fas fa-check"></i> 서비스 기획 및 전략 수립</li>
                 <li><i className="fas fa-check"></i> 프로젝트 관리</li>
               </ul>
-              <div className="team-links">
-                <a href="#" className="team-link">
-                  <i className="fab fa-github"></i>
-                </a>
-                <a href="#" className="team-link">
-                  <i className="fab fa-linkedin"></i>
-                </a>
-              </div>
             </div>
           </div>
 
           <div className="team-card">
             <div className="team-image">
-              <img src={memberImage} alt="김세일 연구원" />
+              <img src={memberImage} alt="김세일 공동창업자" />
             </div>
             <div className="team-info">
               <h3>김세일</h3>
@@ -69,20 +61,13 @@ const Organization = () => {
                 <li><i className="fas fa-check"></i> 성능 최적화</li>
                 <li><i className="fas fa-check"></i> 연구 개발</li>
               </ul>
-              <div className="team-links">
-                <a href="#" className="team-link">
-                  <i className="fab fa-github"></i>
-                </a>
-                <a href="#" className="team-link">
-                  <i className="fab fa-linkedin"></i>
-                </a>
-              </div>
+              
             </div>
           </div>
 
           <div className="team-card">
             <div className="team-image">
-              <img src={memberImage} alt="문상아 연구원" />
+              <img src={memberImage} alt="문상아 공동창업자" />
             </div>
             <div className="team-info">
               <h3>문상아</h3>
@@ -94,14 +79,7 @@ const Organization = () => {
                 <li><i className="fas fa-check"></i> 데이터 파이프라인 구축</li>
                 <li><i className="fas fa-check"></i> 품질 관리</li>
               </ul>
-              <div className="team-links">
-                <a href="#" className="team-link">
-                  <i className="fab fa-github"></i>
-                </a>
-                <a href="#" className="team-link">
-                  <i className="fab fa-linkedin"></i>
-                </a>
-              </div>
+              
             </div>
           </div>
         </div>
