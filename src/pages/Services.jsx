@@ -139,7 +139,14 @@ const Services = () => {
         </div>
 
         <div className="process-flow">
-          <img src={require('../assets/solution.png')} alt="Solution" />
+          <div className="image-container">
+            <img 
+              src={require('../assets/solution.png')} 
+              alt="Solution" 
+              className="service-image"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
     </div>

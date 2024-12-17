@@ -9,7 +9,7 @@ const Home = () => {
         <div className="hero-content">
           <h1>
             <span className="highlight animate-slide-down">AI 기반</span><br />
-            <span className="title-main animate-slide-up">독거노인 안전 모니터링 솔루션</span>
+            <span className="title-main animate-slide-up">독거노인 및 취약계층<br/>안전 모니터링 솔루션</span>
           </h1>
 
         </div>
