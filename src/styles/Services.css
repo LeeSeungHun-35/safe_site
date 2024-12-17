@@ -352,3 +352,146 @@ h1, h2, h3 {
     transform: translateY(0);
   }
 } 
+
+/* 기존 미디어 쿼리를 개선하고 새로운 반응형 스타일 추가 */
+@media (max-width: 768px) {
+  /* 기본 여백 및 폰트 크기 조정 */
+  .service-details {
+    padding: 3rem 1rem;
+  }
+
+  .hero-description,
+  .section-description {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  /* 기술 카드 그리드 조정 */
+  .tech-grid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .tech-card {
+    padding: 1.5rem;
+  }
+
+  .tech-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .tech-card p {
+    font-size: 0.95rem;
+  }
+
+  /* 프로세스 플로우 모바일 최적화 */
+  .process-flow {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+  .process-step {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .process-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+
+  .process-arrow {
+    transform: rotate(90deg);
+    margin: 0.5rem 0;
+  }
+
+  /* 기술 상세 정보 모바일 최적화 */
+  .tech-details {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .tech-stat {
+    padding: 0.8rem;
+  }
+
+  .stat-value {
+    font-size: 1.5rem;
+  }
+
+  /* 비교 테이블 모바일 최적화 */
+  .tech-comparison {
+    padding: 1rem;
+    margin: 3rem auto 0;
+  }
+
+  .comparison-table {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .comparison-header h3 {
+    font-size: 1.6rem;
+  }
+
+  .comparison-header p {
+    font-size: 1rem;
+  }
+
+  .comparison-item {
+    padding: 1.5rem;
+  }
+
+  .comparison-title {
+    font-size: 1.3rem;
+  }
+
+  .comparison-item ul li {
+    font-size: 1rem;
+  }
+}
+
+/* 더 작은 모바일 화면을 위한 추가 미디어 쿼리 */
+@media (max-width: 480px) {
+  .tech-card {
+    padding: 1.2rem;
+  }
+
+  .tech-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .tech-features li {
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .comparison-item {
+    padding: 1.2rem;
+  }
+}
+
+/* 태블릿 화면을 위한 미디어 쿼리 */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .service-details {
+    padding: 4rem 1.5rem;
+  }
+
+  .tech-card {
+    padding: 2rem;
+  }
+} 

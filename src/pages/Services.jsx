@@ -9,7 +9,7 @@ const Services = () => {
         <div className="hero-content">
           <h1>
             <span className="highlight animate-slide-down">AI 케어 서비스</span><br />
-            <span className="title-main animate-slide-up">프라이버시를 지키는<br />스마트 케어 솔루션</span>
+            <span className="title-main animate-slide-up">프라이버시와 안전을 지키는<br />스마트 케어 솔루션</span>
           </h1>
           <p className="hero-description animate-fade-in">
             딥러닝 기반 행동 감지와 LLM 기술로<br />
@@ -106,24 +106,25 @@ const Services = () => {
 
         <div className="tech-comparison">
           <div className="comparison-header">
-            <h3>기존 솔루션과의 비교</h3>
+            <h3>기존 CCTV와의 비교</h3>
             <p>SAFE 솔루션의 차별화된 강점</p>
           </div>
           <div className="comparison-table">
             <div className="comparison-item">
-              <div className="comparison-title">기존 솔루션</div>
+              <div className="comparison-title">기존 CCTV</div>
               <ul>
-                <li><i className="fas fa-times"></i> 영상 직접 공유로 인한 프라이버시 침해</li>
+                <li><i className="fas fa-times"></i> 영상 데이터의 직접 공유로 개인 정보 유출 가능성</li>
                 <li><i className="fas fa-times"></i> 단순 움직임 감지</li>
-                <li><i className="fas fa-times"></i> 제한적인 상황 인식</li>
+                <li><i className="fas fa-times"></i> 사람의 부재로 인한 즉각적인 감지 한계</li>
               </ul>
             </div>
             <div className="comparison-item highlight">
               <div className="comparison-title">SAFE 솔루션</div>
               <ul>
-                <li><i className="fas fa-check"></i> 텍스트 기반 상황 전달로 프라이버시 보호</li>
+                <li><i className="fas fa-check"></i> 텍스트로 상황을 전달하여 프라이버시 보호</li>
                 <li><i className="fas fa-check"></i> AI 기반 정확한 행동 인식</li>
-                <li><i className="fas fa-check"></i> 감지내용 상세 상황 설명</li>
+                <li><i className="fas fa-check"></i> 상황별 감지 내용을 자동 설명</li>
+                <li><i className="fas fa-check"></i> 특정 손짓 제스처 활용 구조 요청</li>
               </ul>
             </div>
           </div>
