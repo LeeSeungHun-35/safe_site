@@ -31,9 +31,12 @@ div.nav-container {
 .logo {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  font-weight: bold;
-  font-size: 1.3rem;
+  font-family: "Faster One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
   transition: color 0.3s ease;
+  letter-spacing: 2px;
 }
 
 .scrolled .logo {
@@ -109,7 +112,8 @@ div.nav-container {
   }
 
   .logo {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
   }
 
   .menu-button {

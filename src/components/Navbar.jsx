@@ -42,7 +42,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <Link to="/" className="logo">
-          S A F E
+          SAFE
         </Link>
         
         <button className="menu-button" onClick={toggleMenu}>
