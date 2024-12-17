@@ -39,7 +39,8 @@ const Organization = () => {
               <span className="team-position">대표 창업자</span>
               <div className="team-divider"></div>
               <ul className="team-responsibilities">
-                <li><i className="fas fa-check"></i> 전반적인 개발 총괄</li>
+                <li><i className="fas fa-check"></i> AI등 전반적인 개발 총괄</li>
+                <li><i className="fas fa-check"></i> 웹/앱 개발</li>
                 <li><i className="fas fa-check"></i> 시스템 아키텍처 설계</li>
                 <li><i className="fas fa-check"></i> 서비스 기획 및 전략 수립</li>
                 <li><i className="fas fa-check"></i> 프로젝트 관리</li>

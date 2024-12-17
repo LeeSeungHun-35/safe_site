@@ -135,7 +135,110 @@ body {
 }
 
 .app {
-  min-height: 768px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+/* 네비게이션 바 높이만큼 상단 여백 추가 */
+.page-container {
+  padding-top: 70px; /* 네비게이션 바 높이 + 여유 공간 */
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding-top: 60px;
+  }
+}
+
+/* 모바일 반응형 기본 설정 추가 */
+@media (max-width: 768px) {
+  .page {
+    padding-top: 60px;
+  }
+
+  .hero {
+    min-height: calc(100vh - 60px);
+    padding: 2rem 1rem;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-content {
+    padding: 3rem 1rem;
+  }
+
+  .hero-content .highlight {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-content .title-main {
+    font-size: 1.8rem;
+  }
+}
+
+/* 더 작은 모바일 화면 */
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* 최상단에 추가 */
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+input, textarea {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* 기존 모바일 미디어 쿼리 수정 */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .page {
+    padding-top: 60px;
+    overflow-x: hidden;
+  }
+
+  .hero {
+    min-height: calc(100vh - 60px);
+    padding: 1rem;
+  }
+
+  .hero-content {
+    padding: 0 1rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .section-content {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 13px;
+  }
 } 
