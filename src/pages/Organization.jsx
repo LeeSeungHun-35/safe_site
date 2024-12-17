@@ -39,7 +39,7 @@ const Organization = () => {
               <span className="team-position">대표 창업자</span>
               <div className="team-divider"></div>
               <ul className="team-responsibilities">
-                <li><i className="fas fa-check"></i> AI등 전반적인 개발 총괄</li>
+                <li><i className="fas fa-check"></i> AI 개발 총괄</li>
                 <li><i className="fas fa-check"></i> 웹/앱 개발</li>
                 <li><i className="fas fa-check"></i> 시스템 아키텍처 설계</li>
                 <li><i className="fas fa-check"></i> 서비스 기획 및 전략 수립</li>
@@ -59,6 +59,7 @@ const Organization = () => {
               <ul className="team-responsibilities">
                 <li><i className="fas fa-check"></i> AI 모델 설계 및 개발</li>
                 <li><i className="fas fa-check"></i> 데이터 분석 및 처리</li>
+                <li><i className="fas fa-check"></i> 지속 가능한 비즈니스 모델 개발</li>
                 <li><i className="fas fa-check"></i> 성능 최적화</li>
                 <li><i className="fas fa-check"></i> 연구 개발</li>
               </ul>
@@ -78,6 +79,7 @@ const Organization = () => {
                 <li><i className="fas fa-check"></i> AI 모델 분석 및 평가</li>
                 <li><i className="fas fa-check"></i> 알고리즘 최적화</li>
                 <li><i className="fas fa-check"></i> 데이터 파이프라인 구축</li>
+                <li><i className="fas fa-check"></i> 업계 트렌드 분석 및 전략적 대응</li>
                 <li><i className="fas fa-check"></i> 품질 관리</li>
               </ul>
               
